@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: a18243fa53f10d74cb798c799fb17f3c
+timeCreated: 1792146136
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - REEJI-TaikoMagicGB-Flash
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d504c0010306ad34a91e4baefb3bf247, type: 3}
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

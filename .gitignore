@@ -1,0 +1,54 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Local build outputs
+/[Bb]uild/
+/[Bb]uilds/
+/[Ee]xported[Oo]bj/
+
+# Personal records and local reports
+/SaveData/
+*.log
+*.tmp
+*.bak
+*.stackdump
+
+# IDE generated files
+/.vs/
+/.idea/
+/.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+
+# Crash reports, OS files and credentials
+/crash-report/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.env
+.env.*
+*.keystore
+*.jks
+*.pfx
+*.p12
+*.pem
+*.key
+*.ulf
+*.lic
