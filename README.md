@@ -8,6 +8,12 @@
 - 在 Unity Hub 中添加此仓库根目录，等待首次资源导入完成。
 - 打开 `Assets/Scenes/StartMenu.unity`，点击编辑器播放按钮。
 - 仓库包含 `Assets`、`Packages`、`ProjectSettings` 和全部资源 `.meta` 文件；Unity 会自动生成缓存目录。
+- 窗口可以调整大小，游戏画面保持 5:2 比例，空余区域显示黑边；主菜单、选人、游戏和记录页统一缩放。
+
+## 编译 Windows 版
+
+使用 Unity 的 `-batchmode -quit -projectPath <工程目录> -executeMethod BuildPlayableRelease.Run -releasePath <新的输出目录>` 参数，可编译 Windows 64 位发行版。
+输出目录需要尚不存在；双击输出中的 `时空之门.exe` 即可游玩。发送给玩家时应保留整个输出文件夹，并排除个人的 `SaveData` 目录。
 
 ## 操作
 
