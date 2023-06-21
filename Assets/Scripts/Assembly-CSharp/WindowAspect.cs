@@ -13,7 +13,7 @@ public class WindowAspect : MonoBehaviour
 	private static void SetWindowSize()
 	{
 		if (Application.platform == RuntimePlatform.WindowsPlayer)
-			Screen.SetResolution(700, 280, FullScreenMode.Windowed);
+			Screen.SetResolution(1400, 560, FullScreenMode.Windowed);
 	}
 
 	private void Awake()
