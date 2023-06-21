@@ -9,6 +9,13 @@ public class WindowAspect : MonoBehaviour
 	private Camera background;
 	private int width, height;
 
+	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+	private static void SetWindowSize()
+	{
+		if (Application.platform == RuntimePlatform.WindowsPlayer)
+			Screen.SetResolution(700, 280, FullScreenMode.Windowed);
+	}
+
 	private void Awake()
 	{
 		view = GetComponent<Camera>();

@@ -19,13 +19,13 @@ public class SkillControl : MonoBehaviour
 
 	public float ltTime = 3f;
 
-	public float cdTime = 40f;
+	public float cdTime = 20f;
 
 	public float MaTime = 5f;
 
 	public float ShTime = 5f;
 
-	public float r_cdTime = 60f;
+	public float r_cdTime = 30f;
 
 	public float addtionalTime;
 

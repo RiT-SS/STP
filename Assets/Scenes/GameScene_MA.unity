@@ -6638,10 +6638,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: dace1ffd2228a714796bb51c47089541, type: 2}
   - {fileID: 21300000, guid: 294f4d0675bb24140ae51517afa2e643, type: 2}
   ltTime: 3
-  cdTime: 40
+  cdTime: 20
   MaTime: 5
   ShTime: 5
-  r_cdTime: 60
+  r_cdTime: 30
   addtionalTime: 0
   ltFlag: 0
   player_tran: {fileID: 0}

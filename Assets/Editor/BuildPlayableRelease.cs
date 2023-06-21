@@ -23,6 +23,7 @@ public static class BuildPlayableRelease
 		BuildReport report = BuildPipeline.BuildPlayer(options);
 		Debug.Log("RELEASE_BUILD " + report.summary.result + " | errors=" + report.summary.totalErrors + " | warnings=" + report.summary.totalWarnings + " | bytes=" + report.summary.totalSize);
 		if (report.summary.result != BuildResult.Succeeded) throw new Exception("Release build failed");
+		File.Copy(Path.Combine(Application.dataPath, "../游玩说明.txt"), Path.Combine(output, "游玩说明.txt"), true);
 		string save = Path.Combine(output, "SaveData");
 		if (Directory.Exists(save) || Directory.GetFiles(output, "game-records*", SearchOption.AllDirectories).Length != 0) throw new Exception("Release contains game records");
 	}
