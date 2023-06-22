@@ -378,6 +378,7 @@ public class PlayerControl : MonoBehaviour
 		box = box_1;
 		isSlide = false;
 		isRage = true;
+		ani.SetInteger("action", 0);
 		rbody.velocity = Vector2.zero;
 		rbody.gravityScale = 0f;
 		rbody.constraints |= RigidbodyConstraints2D.FreezePosition;
@@ -394,6 +395,7 @@ public class PlayerControl : MonoBehaviour
 		float height = top + footOffset;
 		if (transform.position.y < height || transform.position.y > height + 0.08f) return false;
 		isRage = false;
+		ani.SetInteger("action", isGround ? 0 : 1);
 		rbody.constraints = rageConstraints;
 		rbody.gravityScale = rageGravity;
 		rbody.velocity = Vector2.zero;
@@ -576,7 +578,7 @@ public class PlayerControl : MonoBehaviour
 		stopContacts.Remove(collision.collider);
 		isGround = groundContacts.Count > 0;
 		isStop = stopContacts.Count > 0;
-		if (!isGround && !isSlide) ani.SetInteger("action", 1);
+		if (!isGround && !isSlide && !isRage) ani.SetInteger("action", 1);
 	}
 
 	private void BlinkPlayer(int numBlinks, float seconds)
