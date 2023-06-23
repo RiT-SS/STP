@@ -2,7 +2,7 @@
 
 在黑洞的追逐下奔跑，收集战利品，穿过连接不同时代的传送门。
 
-**[下载 Windows 64 位版 · 时空之门.zip](https://github.com/RiT-SS/STP/releases/latest/download/%E6%97%B6%E7%A9%BA%E4%B9%8B%E9%97%A8.zip)** · [查看发布页](https://github.com/RiT-SS/STP/releases/latest)
+**[下载 Windows 64 位版 · 时空之门.zip](https://github.com/RiT-SS/STP/raw/refs/heads/downloads/%E6%97%B6%E7%A9%BA%E4%B9%8B%E9%97%A8.zip)** · [查看发布页](https://github.com/RiT-SS/STP/releases/latest)
 
 ![时空之门主界面](docs/screenshots/main-menu.png)
 
