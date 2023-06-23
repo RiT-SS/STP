@@ -2,13 +2,13 @@
 
 在黑洞的追逐下奔跑，收集战利品，穿过连接不同时代的传送门。
 
-**[下载 Windows 64 位版 · 时空之门.zip](https://github.com/RiT-SS/STP/raw/refs/heads/downloads/%E6%97%B6%E7%A9%BA%E4%B9%8B%E9%97%A8.zip)** · [查看发布页](https://github.com/RiT-SS/STP/releases/latest)
+**[下载 Windows 64 位版 · STP.zip](https://github.com/RiT-SS/STP/releases/latest/download/STP.zip)** · [查看发布页](https://github.com/RiT-SS/STP/releases/latest)
 
 ![时空之门主界面](docs/screenshots/main-menu.png)
 
 ## 开始游玩
 
-下载并完整解压 `时空之门.zip`，进入文件夹，双击 **时空之门.exe**。无需安装 Unity，请保留 exe 旁的全部文件和目录。
+下载并完整解压 `STP.zip`，进入文件夹，双击 **时空之门.exe**。无需安装 Unity，请保留 exe 旁的全部文件和目录。
 
 默认窗口为 **1400×560**。窗口可以调整大小，游戏画面保持 **5:2** 比例，多出的区域显示黑边。
 
