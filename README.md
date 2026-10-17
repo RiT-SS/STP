@@ -2,7 +2,7 @@
 
 小白做的第一个较为完整的跑酷类小游戏。游戏整体略显粗糙，仅供图一乐。
 
-玩法很直接：逃离黑洞，收集足够的战利品以进行场景切换。目标自然是生存得越久越好。
+玩法很直接：逃离后方的黑洞，躲避前方的敌袭，收集足够的战利品以进行场景切换。目标自然是生存得越久越好。
 
 **[下载 Windows 64 位版 · STP.zip](https://github.com/RiT-SS/STP/releases/latest/download/STP.zip)** · [查看发布页](https://github.com/RiT-SS/STP/releases/latest)
 
