@@ -22,9 +22,20 @@
   <img src="docs/screenshots/ancient.png" alt="场景一：立柱、高低平台与楼阁" width="640">
 </p>
 
-| 士兵 | 立柱平台 |
-| :---: | :---: |
-| <img src="docs/screenshots/ancient-soldier.png" alt="场景一的士兵" width="144"> | <img src="docs/screenshots/ancient-pillars.png" alt="场景一的立柱平台" width="200"> |
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">士兵</th>
+      <th align="center">立柱平台</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle"><img src="docs/screenshots/ancient-soldier.png" alt="场景一的士兵" width="144"></td>
+      <td align="center" valign="middle"><img src="docs/screenshots/ancient-pillars.png" alt="场景一的立柱平台" width="200"></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 场景二
 
@@ -32,9 +43,20 @@
   <img src="docs/screenshots/war.png" alt="场景二：坦克、管道与断开的平台" width="640">
 </p>
 
-| 坦克 | 导弹 |
-| :---: | :---: |
-| <img src="docs/screenshots/war-tank.png" alt="场景二的坦克" width="200"> | <img src="docs/screenshots/war-missile.png" alt="场景二的导弹" width="200"> |
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">坦克</th>
+      <th align="center">导弹</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle"><img src="docs/screenshots/war-tank.png" alt="场景二的坦克" width="200"></td>
+      <td align="center" valign="middle"><img src="docs/screenshots/war-missile.png" alt="场景二的导弹" width="200"></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 场景三
 
@@ -42,9 +64,22 @@
   <img src="docs/screenshots/medieval.png" alt="场景三：骷髅笼、栅栏与切割机" width="640">
 </p>
 
-| 骷髅笼 | 陷阱 | 切割机 |
-| :---: | :---: | :---: |
-| <img src="docs/screenshots/medieval-cage.png" alt="场景三的骷髅笼" width="88"> | <img src="docs/screenshots/medieval-trap.png" alt="场景三的陷阱" width="84"> | <img src="docs/screenshots/medieval-cutter.png" alt="场景三的切割机" width="104"> |
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">骷髅笼</th>
+      <th align="center">陷阱</th>
+      <th align="center">切割机</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle"><img src="docs/screenshots/medieval-cage.png" alt="场景三的骷髅笼" width="88"></td>
+      <td align="center" valign="middle"><img src="docs/screenshots/medieval-trap.png" alt="场景三的陷阱" width="84"></td>
+      <td align="center" valign="middle"><img src="docs/screenshots/medieval-cutter.png" alt="场景三的切割机" width="104"></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 可选角色
 
@@ -82,11 +117,32 @@
 
 道具以较低的概率在地图随机出现，各类道具效果如下：
 
-| 道具 | 截图 | 效果 |
-| --- | :---: | --- |
-| 护盾 | <img src="docs/screenshots/item-shield.png" alt="护盾道具" width="96"> | 提供短暂保护，持续 **5 秒** |
-| 磁铁 | <img src="docs/screenshots/item-magnet.png" alt="磁铁道具" width="96"> | 吸引附近的道具与战利品，持续 **5 秒** |
-| 生命 | <img src="docs/screenshots/item-health.png" alt="生命道具" width="96"> | 补充 **1 颗心** |
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">道具</th>
+      <th align="center">截图</th>
+      <th align="center">效果</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">护盾</td>
+      <td align="center" valign="middle"><img src="docs/screenshots/item-shield.png" alt="护盾道具" width="96"></td>
+      <td align="left" valign="middle">提供短暂保护，持续 <strong>5 秒</strong></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">磁铁</td>
+      <td align="center" valign="middle"><img src="docs/screenshots/item-magnet.png" alt="磁铁道具" width="96"></td>
+      <td align="left" valign="middle">吸引附近的道具与战利品，持续 <strong>5 秒</strong></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">生命</td>
+      <td align="center" valign="middle"><img src="docs/screenshots/item-health.png" alt="生命道具" width="96"></td>
+      <td align="left" valign="middle">补充 <strong>1 颗心</strong></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 操作方式
 
