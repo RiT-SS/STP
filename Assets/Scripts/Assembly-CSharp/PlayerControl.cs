@@ -147,6 +147,7 @@ public class PlayerControl : MonoBehaviour
 	private void Update()
 	{
 		if (EventControl.isPaused || Time.deltaTime <= 0f) return;
+		RefreshContacts();
 		if (!EventControl.isplay && pause.menuKeys)
 		{
 			if (GroundControl.new_scene)
@@ -306,6 +307,20 @@ public class PlayerControl : MonoBehaviour
 			position2.x = Mathf.MoveTowards(position2.x, player_x, 0.24f * Time.deltaTime);
 			base.transform.position = position2;
 		}
+	}
+
+	private void RefreshContacts()
+	{
+		// 碰撞箱碎裂或禁用后，退出事件可能没有清掉旧接触。
+		groundContacts.RemoveWhere(ContactEnded);
+		stopContacts.RemoveWhere(ContactEnded);
+		isGround = groundContacts.Count > 0;
+		isStop = stopContacts.Count > 0;
+	}
+
+	private bool ContactEnded(Collider2D other)
+	{
+		return other == null || !other.enabled || !other.gameObject.activeInHierarchy || rbody == null || !rbody.IsTouching(other);
 	}
 
 	private void LateUpdate()
